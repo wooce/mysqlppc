@@ -18,7 +18,7 @@ namespace mysqlppc {
 	using std::string;
 	class ResultSet {
 		public:
-		   	ResultSet(MYSQL_STMT* stmt);
+			ResultSet(MYSQL_STMT* stmt);
 			~ResultSet();
 
 			unsigned getColumnCount() { return m_metadata->columnsReturned(); }
@@ -29,10 +29,10 @@ namespace mysqlppc {
 			long long getLong(unsigned columnIndex);
 			string getString(unsigned columnIndex);
 			float getFloat(unsigned columnIndex);
-            int getInt(string name);
-            long long getLong(string name);
-            string getString(string name);
-            float getFloat(string name);
+            		int getInt(string name);
+            		long long getLong(string name);
+            		string getString(string name);
+            		float getFloat(string name);
 		private:
 			MYSQL_STMT* m_stmt;
 			class ResultMetadata* m_metadata;
