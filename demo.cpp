@@ -10,7 +10,7 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  wooce yang (), yanghongfen@gmail.com
+ *         Author:  wooce (Wooce Yang), wooce@21cn.com
  *   Organization:  
  *
  * =====================================================================================
